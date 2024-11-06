@@ -8,7 +8,7 @@ pipeline {
                 bat 'docker build -t node-app:1.0.0 .'
             }
         }
-        
+
         stage('Deploy'){
             steps{
                 echo 'Deploy the TODO application on Docker'
@@ -17,3 +17,4 @@ pipeline {
         }
     }
 }
+###TEST###
